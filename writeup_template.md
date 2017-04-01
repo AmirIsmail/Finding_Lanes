@@ -60,6 +60,6 @@ In order to draw a single line on the left and right lanes I modified the draw_l
 	1. Curved road with continuous changing slope such that the draw_lines function will not be able to differentiate left and right lanes using the slopes only
 
 
-###3. Suggested improvements to the pipeline:
+###3. Suggested improvement to the pipeline:
 	1. Identification that the line belongs to left or right lane in "draw_lines" funcion shouldn't only depend on slope as at some points the two lanes are both positive or negative so instead 
 	of using slopes to differentiate we can define possible x range for the left and another for the right and compare the current x against this range to define left and right lane lines
